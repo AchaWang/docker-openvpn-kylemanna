@@ -6,6 +6,7 @@
 version: '2'
 services:
   openvpn:
+    container_name: openvpn
     cap_add:
      - NET_ADMIN
     image: kylemanna/openvpn
